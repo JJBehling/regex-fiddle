@@ -1,0 +1,29 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 0;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+textarea, input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+#output {
+    background-color: #f4f4f4;
+    padding: 10px;
+    white-space: pre-wrap;
+    border: 1px solid #ccc;
+}
+
+#output .highlight {
+    background-color: yellow;
+}
